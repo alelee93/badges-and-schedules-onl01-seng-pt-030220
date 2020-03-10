@@ -1,5 +1,6 @@
 # Write your code here.
 
+<<<<<<< HEAD
 def badge_maker(name)
   return "Hello, my name is #{name}."
 end
@@ -29,4 +30,8 @@ def printer(attendees)
   puts print_room[i]
   i += 1
 end  
+=======
+def badge_maker(list)
+  list.each{|name| puts "Hello, my name is #{name}."}
+>>>>>>> 3f438b1feb61196153b23f1222c2489e2e37ca8a
 end
